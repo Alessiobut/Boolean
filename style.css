@@ -1,0 +1,100 @@
+*{
+  font-family: century-gothic, sans-serif;
+}
+
+body {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.box{
+  background-color: rgba(0,0,0, 0.5);
+  border-radius: 25px;
+  width:1200px;
+  height:850px;
+  margin:auto;
+}
+/* Logo */
+.lim{
+  width:270px;
+  height:120px;
+  position: absolute;
+  left:820px;
+  top:120px;
+}
+/* Resize image */
+.lim img {
+  width:100%;
+  height: auto;
+}
+
+h1{
+color: rgba( 0, 255, 0, 1 );
+}
+
+.titolo{
+  position: absolute;
+  left:715px;
+  top:225px;
+}
+
+nav{
+  background-color: rgba( 0, 255, 0, 1 );
+  width:950px;
+  height:40px;
+  text-align: center;
+  position: relative;
+  top: 280px;
+  margin: auto;
+}
+
+.button{
+  margin-top: 10px;
+}
+
+main{
+  color: white;
+  position: relative;
+  top: 280px;
+  font-size: 95%;
+  margin-left: 125px;
+  box-sizing: border-box;
+}
+
+.square:before{
+  content:"\25FC";
+}
+
+.arrow:before{
+  content: "\27B5";
+}
+
+.list{
+  margin:auto;
+  position: absolute;
+  width:950px;
+  height:40px;
+}
+
+.half-charge{
+  background-color: rgba( 206, 175, 24, 1 );
+  width:350px;
+  height:30px;
+  border-radius: 6px;
+}
+
+.full-charge{
+  background-color: rgba( 0, 255, 0, 1 );
+  width:700px;
+  height:30px;
+  border-radius: 6px;
+}
+
+.low-charge{
+  background-color: rgba( 255, 64, 64, 1 );
+  width:150px;
+  height:30px;
+  border-radius: 6px;
+}
